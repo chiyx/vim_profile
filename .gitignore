@@ -1,0 +1,10 @@
+tmp/
+temp/
+vundle_plugins/
+
+*.~
+*.un~
+%*
+*%*
+systags
+tags
