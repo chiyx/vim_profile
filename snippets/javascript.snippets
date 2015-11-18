@@ -1,0 +1,17 @@
+# Functions
+
+# generator
+snippet fn*
+	function* ${1:generator_name} (${2}) {
+		${0}
+	}
+# Anonymous generator
+snippet fn*a
+	function* (${1}) {
+		${0}
+	}
+# Anonymous generator assigned to variable
+snippet vfn*
+	var ${1:generator_name} = function (${2}) {
+		${0}
+	}

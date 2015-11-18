@@ -60,6 +60,8 @@ set nocp
     set showcmd
     " 在底部展示当前打模式
     set showmode
+    " 代码补全，不需要预览窗口
+    set completeopt-=preview
     " 支持256色
     set t_Co=256
     " 支持鼠标
@@ -116,6 +118,17 @@ set nocp
     noremap <C-j> <C-w>j
     noremap <C-k> <C-w>k
     noremap <C-l> <C-w>l
+
+    " 移动面板
+    noremap <C-w>h <C-W>H
+    noremap <C-w>j <C-W>J
+    noremap <C-w>k <C-W>K
+    noremap <C-w>l <C-W>L
+
+    " 面板宽度调整,默认按10列来调整
+    noremap <C-w>> <C-w>10>
+    noremap <C-w>< <C-w>10<
+
     " 基于屏幕行移动
     noremap j gj
     noremap k gk
@@ -125,6 +138,10 @@ set nocp
     " 普通模式和可视模式下按tab缩进
     nnoremap <tab> V>
     nnoremap <s-tab> V<
+
+    " 插入模式下按;;在行尾添加;
+    imap ;; <esc>A;
+
 " "}}}
 
 " some loal plugin and script "{{{
