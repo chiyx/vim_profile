@@ -35,7 +35,7 @@
     " file and mru,buffer,tag finder for vim
     Plugin 'kien/ctrlp.vim'
         let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$\|.rvm$'
-        set wildignore+=*/tmp/*,*.so,*.zip,*.o,*.obj
+        set wildignore+=*/tmp/*,*.so,*.zip,*.o,*.obj,*.class
 
     " 快速移动插件
     Plugin 'Lokaltog/vim-easymotion'
