@@ -13,7 +13,7 @@ Pitchy's vim profile for edit js, python, c/c++, and so on...
 ## clone and install the plugins
 
 ```sh
-git clone https://github.com/chiyx/vimp_rofile.git ~/vim_profile
+git clone https://github.com/chiyx/vim_profile.git ~/vim_profile
 cd ~/vim_profile
 ./install_vimrc.sh
 ```
