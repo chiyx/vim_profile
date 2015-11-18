@@ -89,6 +89,9 @@
         let g:user="pitchy"
         let g:email="chiyxme@outlook.com"
 
+    " scala插件，使得vim支持scala文件类型，语法高亮等
+    Plugin 'derekwyatt/vim-scala'
+
     " 自动补全工具，需要额外编译
     Plugin 'Valloric/YouCompleteMe'
         let g:ycm_global_ycm_extra_conf=$VIMFILES.'/vundle_plugins/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
