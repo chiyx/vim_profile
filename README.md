@@ -6,7 +6,7 @@ Pitchy's vim profile for edit js, python, c/c++, and so on...
 
 ## required
 
-* vim[7.3] with python2, ruby, perl,lua support.
+* vim[7.3 or above] with python2, ruby, perl,lua support.
 
 * cmake, python-dev installed. -- for YouCompleteMe Plugin
 
@@ -14,6 +14,11 @@ Pitchy's vim profile for edit js, python, c/c++, and so on...
 
 ```sh
 git clone https://github.com/chiyx/vimp_rofile.git ~/vim_profile
+cd ~/vim_profile
+./install_vimrc.sh
+```
+
+
 
 
 
