@@ -18,7 +18,11 @@ cd ~/vim_profile
 ./install_vimrc.sh
 ```
 
+## compile the YouCompleteMe
 
-
-
+```
+cd ~/vim_profile/vundle_plugins/YouCompleteMe
+git submodule update --init --recursive
+./install.sh --clang-completer --gocode-completer
+```
 
