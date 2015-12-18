@@ -96,6 +96,9 @@
     Plugin 'Valloric/YouCompleteMe'
         let g:ycm_global_ycm_extra_conf=$VIMFILES.'/vundle_plugins/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
 
+    " html&css Plugin
+    Plugin 'mattn/emmet-vim'
+
     call vundle#end()   " required
     filetype on
     filetype plugin on
